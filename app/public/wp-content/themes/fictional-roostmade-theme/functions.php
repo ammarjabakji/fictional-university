@@ -52,23 +52,37 @@ function mus_roostmade_features() {
 
 
   function mus_roostmade_adjust_queries($query) {
+
     // when wordpress calls our function, it passes along the wordpress query
     // object we can manipulate the object within the body of our functions
     // we are going to wrap it in an if statement so it only applies to the events custom post types
     // without the if statement, it would apply to every query on our site
     // the condition makes it only apply to the event archive screen
     if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
+
       // the function only returns true, if we're on the front end of the site, if we're NOT looking at the admin dashboard
       // it's NOT
       // beceause we added an exclamation point first before it
       // and if its the event archive
       // the past part, is... the function will only evaluate to TRUE if the query in question is the default URL based query
       // this way we never maniupulate a custom query
+      $mus_today = date('Ymd');
+
       $query->set('meta_key', 'event_date');
       // above we're setting parameters
       // we're looking in the wordpress query object, calling its method of set
       // then the first arumment is the query parameter that we want to target
       $query->set('orderby', 'meta_value_num');
+      $query->set('order', 'ASC');
+      $query->set('meta_query', array(
+        array(
+          'key' => 'event_date',
+          'compare' => '>=',
+          'value' => $mus_today,
+          'type'  => 'numbers'
+        )
+      ));
+
 
     }
   }
