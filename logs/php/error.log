@@ -1,0 +1,115 @@
+[24-May-2018 21:23:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:254
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(386): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(330): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(985): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/bootstrap.php(75): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#6 phar:///usr/local/bin/wp/php/wp-cli.php(23): WP_CLI\bootstrap()
+#7 phar:///usr/local/bin/wp/php/boot-phar.php(8): include('phar:///usr/loc...')
+#8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#9 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
+[24-May-2018 21:23:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_CLI\SynopsisValidator' not found in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php:254
+Stack trace:
+#0 phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php(386): WP_CLI\Dispatcher\Subcommand->validate_args(Array, Array, Array)
+#1 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(323): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#2 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(330): WP_CLI\Runner->run_command(Array, Array)
+#3 phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(985): WP_CLI\Runner->_run_command()
+#4 phar:///usr/local/bin/wp/php/WP_CLI/Bootstrap/LaunchRunner.php(23): WP_CLI\Runner->start()
+#5 phar:///usr/local/bin/wp/php/bootstrap.php(75): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#6 phar:///usr/local/bin/wp/php/wp-cli.php(23): WP_CLI\bootstrap()
+#7 phar:///usr/local/bin/wp/php/boot-phar.php(8): include('phar:///usr/loc...')
+#8 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#9 {main}
+  thrown in phar:///usr/local/bin/wp/php/WP_CLI/Dispatcher/Subcommand.php on line 254
+[24-May-2018 23:01:00 UTC] PHP Parse error:  syntax error, unexpected 'David' (T_STRING) in /app/public/experiment.php on line 2
+[24-May-2018 23:45:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[24-May-2018 23:45:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[28-May-2018 23:18:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_body() in /app/public/wp-content/themes/fictional-university-theme/index.php:7
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[29-May-2018 00:40:56 UTC] PHP Parse error:  syntax error, unexpected '')'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[29-May-2018 00:41:14 UTC] PHP Parse error:  syntax error, unexpected '')'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[29-May-2018 19:35:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 25
+[29-May-2018 19:35:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 25
+[29-May-2018 19:35:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 25
+[29-May-2018 19:58:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 29
+[29-May-2018 20:12:58 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[29-May-2018 20:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_list_page() in /app/public/wp-content/themes/fictional-university-theme/page.php:50
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-university-theme/page.php on line 50
+[29-May-2018 20:31:46 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[29-May-2018 20:31:49 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[29-May-2018 20:31:51 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[29-May-2018 20:31:55 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[29-May-2018 20:32:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[29-May-2018 20:32:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[29-May-2018 20:32:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 57
+[30-May-2018 21:16:17 UTC] PHP Parse error:  syntax error, unexpected '>' in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 22
+[30-May-2018 21:25:35 UTC] PHP Parse error:  syntax error, unexpected ''Y'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:29 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:29 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:29 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:29 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:29 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:29 UTC] PHP Warning:  A non-numeric value encountered in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 21:26:35 UTC] PHP Parse error:  syntax error, unexpected ''Y'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/index.php on line 24
+[30-May-2018 23:13:14 UTC] PHP Parse error:  syntax error, unexpected ''category_name'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 63
+[30-May-2018 23:33:55 UTC] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING) in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 118
+[01-Jun-2018 21:00:49 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 30
+[01-Jun-2018 21:02:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 30
+[01-Jun-2018 21:03:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 19
+[01-Jun-2018 21:03:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 19
+[02-Jun-2018 22:25:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_trim_word() in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php:42
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 42
+[02-Jun-2018 22:56:21 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[02-Jun-2018 22:56:27 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[02-Jun-2018 22:56:35 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[02-Jun-2018 22:56:45 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[02-Jun-2018 22:56:49 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[02-Jun-2018 22:56:52 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[02-Jun-2018 22:56:53 UTC] PHP Parse error:  syntax error, unexpected ''public'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[03-Jun-2018 00:23:56 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 114
+[03-Jun-2018 00:28:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 117
+[03-Jun-2018 00:28:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 117
+[03-Jun-2018 00:35:21 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[03-Jun-2018 00:35:25 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[03-Jun-2018 00:35:27 UTC] PHP Parse error:  syntax error, unexpected ''rewrite'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 11
+[05-Jun-2018 01:05:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 29
+[05-Jun-2018 01:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php:29
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 29
+[05-Jun-2018 01:19:36 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /app/public/wp-content/mu-plugins/roostmade-post-types.php on line 42
+[05-Jun-2018 02:21:35 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/fictional-roostmade-theme/front-page.php on line 37
+[05-Jun-2018 02:39:58 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 60
+[05-Jun-2018 02:40:08 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 60
+[05-Jun-2018 02:40:09 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 60
+[05-Jun-2018 02:40:09 UTC] PHP Parse error:  syntax error, unexpected 'admin' (T_STRING) in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 60
+[05-Jun-2018 03:13:35 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 67
+[05-Jun-2018 03:14:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 72
+[05-Jun-2018 03:14:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 72
