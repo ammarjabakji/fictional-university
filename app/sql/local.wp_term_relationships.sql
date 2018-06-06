@@ -20,4 +20,5 @@ INSERT INTO `wp_term_relationships` VALUES
 (57,6,0),
 (58,7,0),
 (59,7,0),
-(69,2,0);
+(85,2,0),
+(89,2,0);

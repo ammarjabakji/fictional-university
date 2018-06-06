@@ -52,9 +52,25 @@ function mus_roostmade_features() {
 
 
   function mus_roostmade_adjust_queries($query) {
-
     // when wordpress calls our function, it passes along the wordpress query
     // object we can manipulate the object within the body of our functions
+
+    // we are going to wrap it in an if statement so it only applies to the programs custom post types
+    // without the if statement, it would apply to every query on our site
+    // the condition makes it only apply to the program archive screen
+    if (!is_admin() AND is_post_type_archive('program') AND $query->is_main_query()) {
+      // this if statement is to display the entire list of programs on the program archive page,
+      // which will override the default of 10 per page, and we want the list alphabetical order
+      $query->set('orderby', 'title');
+      // this makes the posts ordered by the contents of the title
+      $query->set('order', 'ASC');
+      // this sets the order of the titles to be alphabetical
+      $query->set('posts_per_page', -1);
+      // shows all programs, overriding the default of 10 per page
+
+    }
+
+
     // we are going to wrap it in an if statement so it only applies to the events custom post types
     // without the if statement, it would apply to every query on our site
     // the condition makes it only apply to the event archive screen
