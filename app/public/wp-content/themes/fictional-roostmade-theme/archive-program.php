@@ -1,5 +1,6 @@
-<!-- this page was built off of the code we wrote on archive event -->
 <?php
+// this page was built off of the code we wrote on archive event
+
 get_header();
 ?>
 

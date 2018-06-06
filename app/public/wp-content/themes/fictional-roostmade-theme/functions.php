@@ -1,8 +1,7 @@
-<!-- this is our behind the scenes file, this is where we can have a conversation with the WP system itself -->
 
-<!-- all custom post types are managed in the mu-plugins folder under roostmade-post-types -->
 <?php
-
+// this is our behind the scenes file, this is where we can have a conversation with the WP system itself
+// all custom post types are managed in the mu-plugins folder under roostmade-post-types
 function mus_roost_files() {
     // this is the function we made up from the add_action we created below, to run this function
     // that will find the file(s) we wanted wp to find
@@ -101,7 +100,7 @@ function mus_roostmade_features() {
 
 
     }
-    
+
   }
   add_action('pre_get_posts', 'mus_roostmade_adjust_queries');
   // before wordpress sends its query off to the database, it gives our function the last word,

@@ -46,9 +46,6 @@ register_post_type('program', array(
 
 }
 add_action('init', 'mus_roostmade_post_types');
-
+// read more about post types etc.
+// https://codex.wordpress.org/Function_Reference/register_post_type
 ?>
-
-
-<!-- read more about post types etc. -->
-<!-- https://codex.wordpress.org/Function_Reference/register_post_type -->

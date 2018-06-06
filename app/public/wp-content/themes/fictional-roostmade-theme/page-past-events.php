@@ -1,9 +1,9 @@
-<!-- we named this file "page-past-events.php" to link to http://fictional-roostmade.local/past-events/ on its own -->
-<!-- this means that this new template file is now controlling this URL -->
 
-<!-- we built this page based off of the content from archive-event.php -->
 
 <?php
+// we named this file "page-past-events.php" to link to http://fictional-roostmade.local/past-events/ on its own 
+// this means that this new template file is now controlling this URL
+// we built this page based off of the content from archive-event.php
 get_header();
 ?>
 
