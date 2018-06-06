@@ -115,3 +115,163 @@ Stack trace:
 [05-Jun-2018 03:14:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 72
 [06-Jun-2018 00:39:04 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 59
 [06-Jun-2018 00:39:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-roostmade-theme/functions.php on line 65
+[06-Jun-2018 19:44:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function event_date() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 19:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function event_date() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 19:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function event_date() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 19:44:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function event_date() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 19:44:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function event_date() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 19:44:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function event_date() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 20:00:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 38
+[06-Jun-2018 20:01:07 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 36
+[06-Jun-2018 20:02:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 38
+[06-Jun-2018 20:02:54 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 38
+[06-Jun-2018 20:03:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 38
+[06-Jun-2018 20:03:57 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 38
+[06-Jun-2018 20:05:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 38
+[06-Jun-2018 20:06:28 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 42
+[06-Jun-2018 20:06:38 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 42
+[06-Jun-2018 20:07:39 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 42
+[06-Jun-2018 20:10:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 36
+[06-Jun-2018 20:26:25 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 30
+[06-Jun-2018 20:26:48 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 39
+[06-Jun-2018 20:27:11 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 39
+[06-Jun-2018 20:29:50 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION), expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 39
+[06-Jun-2018 20:32:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 30
+[06-Jun-2018 20:33:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function format() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:31
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 31
+[06-Jun-2018 20:33:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 31
+[06-Jun-2018 20:33:46 UTC] PHP Parse error:  syntax error, unexpected '=' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 31
+[06-Jun-2018 20:34:09 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 31
+[06-Jun-2018 20:34:16 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 31
+[06-Jun-2018 20:37:16 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_field(), 0 passed in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28 and at least 1 expected in /app/public/wp-content/plugins/advanced-custom-fields/core/api.php:204
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php(28): get_field()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/core/api.php on line 204
+[06-Jun-2018 20:39:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 35
+[06-Jun-2018 20:39:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 35
+[06-Jun-2018 20:40:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:34
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php(39): mus_showDate()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 34
+[06-Jun-2018 20:40:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mus_showDate(), 0 passed in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 39 and exactly 1 expected in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:33
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php(39): mus_showDate()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 33
+[06-Jun-2018 20:41:30 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 36
+[06-Jun-2018 20:41:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function format() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:28
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 20:42:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mus_showDate(), 0 passed in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 40 and exactly 2 expected in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:34
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php(40): mus_showDate()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 34
+[06-Jun-2018 20:42:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function mus_showDate(), 0 passed in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 40 and exactly 2 expected in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:34
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php(40): mus_showDate()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 34
+[06-Jun-2018 20:42:33 UTC] PHP Parse error:  syntax error, unexpected ''$eventDate'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 34
+[06-Jun-2018 20:43:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 36
+[06-Jun-2018 20:43:19 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 36
+[06-Jun-2018 20:43:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 28
+[06-Jun-2018 20:44:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 36
+[06-Jun-2018 20:45:04 UTC] PHP Parse error:  syntax error, unexpected ''event_date'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 34
+[06-Jun-2018 20:45:21 UTC] PHP Parse error:  syntax error, unexpected '$eventDate' (T_VARIABLE) in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 29
+[06-Jun-2018 20:46:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 35
+[06-Jun-2018 20:47:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 35
+[06-Jun-2018 20:47:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 63
+[06-Jun-2018 20:49:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 37
+[06-Jun-2018 20:50:46 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 29
+[06-Jun-2018 20:51:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:34
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php(39): mus_showDate()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 34
+[06-Jun-2018 20:51:31 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 35
+[06-Jun-2018 20:53:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:42
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 42
+[06-Jun-2018 20:53:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php:42
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 42
+[06-Jun-2018 21:15:28 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 29
+[06-Jun-2018 21:15:29 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 29
+[06-Jun-2018 21:21:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 40
+[06-Jun-2018 21:22:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 40
+[06-Jun-2018 21:22:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 40
+[06-Jun-2018 21:22:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /app/public/wp-content/themes/fictional-roostmade-theme/single-event.php on line 40

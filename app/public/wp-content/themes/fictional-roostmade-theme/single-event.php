@@ -24,11 +24,31 @@ get_header();// gets the contents of header.php
 
 
       <div class="generic-content">
+
+
+        <?php the_meta(); ?>
+
+
+        <?php
+
+
+
+
+
+        $mus_find_event_date = new DateTime(get_field('event_date'));
+        // this line of code creates an object that is a representation of the event date
+        // we provided an argument of the date of our event
+        // this is how we store the date of our event in this function so we can call it anytime
+        $mus_thisEventDate = $mus_find_event_date->format('l, F jS, Y')
+        // we then created a variable to store the event date within, but with the formatting we wanted
+        // so to plug in our event date written out
+        ?>
+
         <div class="metabox metabox--position-up metabox--with-home-link">
 
           <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('event'); ?>">
             <i class="fa fa-calendar" aria-hidden="true"></i> Events Home</a>
-            <span class="metabox__main"><?php the_title(); ?></span>
+            <span class="metabox__main"><?php echo $mus_thisEventDate ?></span>
           </p>
 
         </div>
