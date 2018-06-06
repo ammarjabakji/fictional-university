@@ -13,6 +13,14 @@ get_header();
   </div>
 
   <div class="container container--narrow page-section">
+
+    <div class="metabox metabox--position-up metabox--with-home-link">
+      <p>
+        <a class="metabox__blog-home-link" href="<?php echo site_url('/events'); ?>">
+          <i class="fa fa-calendar" aria-hidden="true"></i> Events Home</a>
+          <span class="metabox__main"> <a href="<?php echo site_url('/past-events'); ?>">View Past Events Here</a></span>
+      </p>
+    </div>
   <?php
   // we use while post because we want to do something once for each
     while(have_posts()) {
