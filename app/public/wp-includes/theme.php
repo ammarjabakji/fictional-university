@@ -458,9 +458,9 @@ function search_theme_directories( $force = false ) {
 			return $found_themes;
 		}
 		if ( ! is_int( $cache_expiration ) )
-			$cache_expiration = 3600; // hour, 1800 is half hour
+			$cache_expiration = 7200; //  1800 is half hour
 	} else {
-		$cache_expiration = 3600; // hour, 1800 is half hour
+		$cache_expiration = 7200; // 1800 is half hour
 	}
 
 	/* Loop the registered theme directories and extract all themes */

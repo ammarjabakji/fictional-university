@@ -95,12 +95,13 @@ function mus_roostmade_features() {
           'key' => 'event_date',
           'compare' => '>=',
           'value' => $mus_today,
-          'type'  => 'numbers'
+          'type'  => 'numeric'
         )
       ));
 
 
     }
+    
   }
   add_action('pre_get_posts', 'mus_roostmade_adjust_queries');
   // before wordpress sends its query off to the database, it gives our function the last word,

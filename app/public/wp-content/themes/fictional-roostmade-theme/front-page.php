@@ -39,7 +39,7 @@
               'key' => 'event_date',
               'compare' => '>=',
               'value' => $mus_today,
-              'type'  => 'numbers'
+              'type'  => 'numeric'
               // only show us posts, if the key is compared to the value is true
               // which means, if the event date, is greater than or equal to todays date
               // we created $mus_today here, and added it at the top so we can call on it when we need and its easier to understand

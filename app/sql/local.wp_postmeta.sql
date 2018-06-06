@@ -218,9 +218,9 @@ INSERT INTO `wp_postmeta` VALUES
 (241,54,"project-difficulty","Profesh"),
 (244,54,"project-difficulty","Amateur"),
 (245,74,"_edit_last","1"),
-(246,74,"_edit_lock","1528245701:1"),
+(246,74,"_edit_lock","1528246395:1"),
 (247,75,"_edit_last","1"),
-(248,75,"_edit_lock","1528245811:1"),
+(248,75,"_edit_lock","1528246620:1"),
 (249,76,"_edit_last","1"),
 (250,76,"_edit_lock","1528169222:1"),
 (251,78,"_edit_last","1"),
@@ -288,8 +288,8 @@ INSERT INTO `wp_postmeta` VALUES
 (315,91,"_edit_lock","1528245636:1"),
 (316,92,"_edit_last","1"),
 (317,92,"field_5b172ee685876","a:14:{s:3:\"key\";s:19:\"field_5b172ee685876\";s:5:\"label\";s:18:\"Related Program(s)\";s:4:\"name\";s:15:\"related_program\";s:4:\"type\";s:12:\"relationship\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"return_format\";s:6:\"object\";s:9:\"post_type\";a:1:{i:0;s:7:\"program\";}s:8:\"taxonomy\";a:1:{i:0;s:3:\"all\";}s:7:\"filters\";a:1:{i:0;s:6:\"search\";}s:15:\"result_elements\";a:1:{i:0;s:9:\"post_type\";}s:3:\"max\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}"),
-(318,92,"rule","a:5:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"event\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}"),
 (319,92,"position","normal"),
 (320,92,"layout","no_box"),
 (321,92,"hide_on_screen",""),
-(322,92,"_edit_lock","1528246106:1");
+(322,92,"_edit_lock","1528246343:1"),
+(325,92,"rule","a:5:{s:5:\"param\";s:9:\"post_type\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:5:\"event\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}");
