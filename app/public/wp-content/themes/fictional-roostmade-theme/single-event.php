@@ -26,14 +26,7 @@ get_header();// gets the contents of header.php
       <div class="generic-content">
 
 
-        <?php the_meta(); ?>
-
-
-        <?php
-
-
-
-
+      <?php
 
         $mus_find_event_date = new DateTime(get_field('event_date'));
         // this line of code creates an object that is a representation of the event date
@@ -44,11 +37,12 @@ get_header();// gets the contents of header.php
         // so to plug in our event date written out
         ?>
 
+
         <div class="metabox metabox--position-up metabox--with-home-link">
 
           <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('event'); ?>">
             <i class="fa fa-calendar" aria-hidden="true"></i> Events Home</a>
-            <span class="metabox__main"><?php echo $mus_thisEventDate ?></span>
+            <span class="metabox__main">Event Date: <?php echo $mus_thisEventDate ?></span>
           </p>
 
         </div>
@@ -56,6 +50,34 @@ get_header();// gets the contents of header.php
 
       </div>
 
+      <?php
+        // where we find the related programs
+
+        $mus_relatedPrograms = get_field('related_programs');
+
+        if($mus_relatedPrograms) {
+            // we can leave this if blank, because if the page doesnt have a related program, then it will evaluate to false, and won't show it
+
+            echo '<hr class="section-break" />';
+            echo '<h2 class="headline headline--medium">Related Programs</h2>';
+            echo '<ul class="link-list min-list">';
+
+            foreach($mus_relatedPrograms as $mus_program) {
+              // echo get_the_title($mus_program);
+              // we write echo because functions that begin with get don't output on their own
+              // each item that lives in our array is a wordpress post object
+              // we write $mus_program because thats the keyword we chose to represent each item that lives in the array
+              ?>
+
+              <li>
+                <a href="<?php echo get_the_permalink($mus_program); ?>"><?php echo get_the_title($mus_program);?></a>
+              </li>
+
+            <?php  }
+            echo '</ul>';
+
+        }
+       ?>
 
       </div>
 

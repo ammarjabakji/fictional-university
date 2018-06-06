@@ -17,6 +17,9 @@
         <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
 
         <?php
+
+        // below we are using wordpress queries to find the upcoming events....
+        // ....THEN in the while loop below it, we output the contents of this query
         $mus_today = date('Ymd');
 
         // this WP Query we're going to tell wordpress which data we want to query from the database
@@ -37,6 +40,7 @@
           'meta_query' => array(
             array(
               'key' => 'event_date',
+              // the key is the custom field we're looking in
               'compare' => '>=',
               'value' => $mus_today,
               'type'  => 'numeric'
