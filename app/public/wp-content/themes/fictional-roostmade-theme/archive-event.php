@@ -36,7 +36,7 @@ get_header();
             // here we are echoing out the date of our event, just the month, calling the function we just made
 
           ?></span>
-          <span class="event-summary__day"><?php echo $eventDate->format('d') ?></span>
+          <span class="event-summary__day"><?php echo $eventDate->format('j') ?></span>
         </a>
         <div class="event-summary__content">
           <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h5>

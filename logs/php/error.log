@@ -295,3 +295,27 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 101
+[07-Jun-2018 19:07:08 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 95
+[07-Jun-2018 19:07:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 93
+[07-Jun-2018 19:09:25 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 93
+[07-Jun-2018 19:09:27 UTC] PHP Parse error:  syntax error, unexpected '?>' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 93
+[07-Jun-2018 19:10:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function gthe_title() in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php:93
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 93
+[07-Jun-2018 19:37:14 UTC] PHP Parse error:  syntax error, unexpected ''"y'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 117
+[07-Jun-2018 19:37:34 UTC] PHP Parse error:  syntax error, unexpected '"y') ?></span></a>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 118
+[07-Jun-2018 19:38:01 UTC] PHP Parse error:  syntax error, unexpected ''format('' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 117
+[07-Jun-2018 20:35:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 153
+[07-Jun-2018 20:40:52 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 159
+[07-Jun-2018 20:41:25 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php:158
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 158
+[07-Jun-2018 20:44:38 UTC] PHP Parse error:  syntax error, unexpected '01' (T_LNUMBER), expecting ',' or ')' in /app/public/wp-content/themes/fictional-roostmade-theme/single-program.php on line 62

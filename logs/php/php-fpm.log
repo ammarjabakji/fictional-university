@@ -160,3 +160,17 @@
 [06-Jun-2018 22:39:20] NOTICE: exiting, bye-bye!
 [06-Jun-2018 22:39:32] NOTICE: fpm is running, pid 29
 [06-Jun-2018 22:39:32] NOTICE: ready to handle connections
+[07-Jun-2018 18:41:16] NOTICE: fpm is running, pid 56
+[07-Jun-2018 18:41:16] NOTICE: ready to handle connections
+[07-Jun-2018 19:06:32] NOTICE: Terminating ...
+[07-Jun-2018 19:06:32] NOTICE: exiting, bye-bye!
+[07-Jun-2018 19:06:38] NOTICE: fpm is running, pid 26
+[07-Jun-2018 19:06:38] NOTICE: ready to handle connections
+[07-Jun-2018 19:56:50] NOTICE: Terminating ...
+[07-Jun-2018 19:56:50] NOTICE: exiting, bye-bye!
+[07-Jun-2018 19:56:56] NOTICE: fpm is running, pid 26
+[07-Jun-2018 19:56:56] NOTICE: ready to handle connections
+[07-Jun-2018 20:54:40] NOTICE: Terminating ...
+[07-Jun-2018 20:54:40] NOTICE: exiting, bye-bye!
+[07-Jun-2018 20:54:47] NOTICE: fpm is running, pid 12
+[07-Jun-2018 20:54:47] NOTICE: ready to handle connections

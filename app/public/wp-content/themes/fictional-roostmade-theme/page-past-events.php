@@ -1,7 +1,7 @@
 
 
 <?php
-// we named this file "page-past-events.php" to link to http://fictional-roostmade.local/past-events/ on its own 
+// we named this file "page-past-events.php" to link to http://fictional-roostmade.local/past-events/ on its own
 // this means that this new template file is now controlling this URL
 // we built this page based off of the content from archive-event.php
 get_header();
@@ -47,15 +47,15 @@ get_header();
     // (where it says the page number, because before it was not linking the results of the pagination to the previous content)
     // we added a second argument called 1, so that if we're on the first result (which doesnt have a page number in the URL)
     // this 1 argument, is the page number to use, for a default, just in case wordpress can't find the page dynamically
-    'posts_per_page' => -1,
+    'posts_per_page' => 4,
     // if we set this to negative 1, it returns all at once - WP default is 10
     'post_type' => 'event',
      // the default of order by is to sory by 'post_date', 'rand' is random.
     'orderby' => 'meta_value_num',
     // meta value is how we tell WP howe we sort by meta key
     'meta_key' => 'event_date',
-    'order' => 'ASC',
-    // order the thing we decided, by ascending
+    'order' => 'DSC',
+    // order the thing we decided, most recent first.
 
     // a meta query is here so we can have fine grain controls over searching for particular values
     'meta_query' => array(
@@ -63,7 +63,7 @@ get_header();
         'key' => 'event_date',
         'compare' => '<',
         'value' => $mus_today,
-        'type'  => 'numbers'
+        'type'  => 'numeric'
         // only show us posts, if the key is compared to the value is true
         // which means, if the event date, is greater than or equal to todays date
         // we created $mus_today here, and added it at the top so we can call on it when we need and its easier to understand
@@ -94,7 +94,7 @@ get_header();
             // here we are echoing out the date of our event, just the month, calling the function we just made
 
           ?></span>
-          <span class="event-summary__day"><?php echo $eventDate->format('d') ?></span>
+          <span class="event-summary__day">'<?php echo $eventDate->format('y') ?></span>
         </a>
         <div class="event-summary__content">
           <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h5>
